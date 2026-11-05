@@ -1,0 +1,83 @@
+{
+    "version": "1.0.1",
+    "name": "bf-defeat-scared",
+    "renderType": "multianimateatlas",
+    "assetPath": "shared:characters/bf/defeatBf",
+    "scale": 1,
+    "isPixel": false,
+    "flipX": true,
+    "startingAnimation": "idle",
+    "animations": [
+        {
+            "name": "idle",
+            "prefix": "fear idle",
+            "frameRate": 24,
+            "looped": true
+        },
+        {
+            "name": "idle-loop",
+            "prefix": "fear idle loop",
+            "frameRate": 24,
+            "looped": true
+        },
+        {
+            "name": "singLEFT",
+            "prefix": "fear left",
+            "frameRate": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "fear down",
+            "frameRate": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "prefix": "fear up",
+            "frameRate": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "fear right",
+            "frameRate": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFTmiss",
+            "prefix": "fear left miss"
+        },
+        {
+            "name": "singDOWNmiss",
+            "prefix": "fear down miss"
+        },
+        {
+            "name": "singUPmiss",
+            "prefix": "fear up miss"
+        },
+        {
+            "name": "singRIGHTmiss",
+            "prefix": "fear right miss"
+        },
+        {
+            "assetPath": "shared:characters/gameover/bfdefeatgameovers",
+            "name": "firstDeath",
+            "prefix": "BF dies",
+            "offsets": [1000, -20]
+        },
+        {
+            "assetPath": "shared:characters/gameover/bfdefeatgameovers",
+            "name": "deathLoop",
+            "prefix": "BF Dead Loop",
+            "looped": true,
+            "offsets": [1000, -20]
+        },
+        {
+            "assetPath": "shared:characters/gameover/bfdefeatgameovers",
+            "name": "deathConfirm",
+            "prefix": "BF Dead confirm",
+            "offsets": [1000, -20]
+        }
+    ]
+}

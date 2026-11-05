@@ -1,0 +1,42 @@
+{
+ "version": "1.0.2",
+ "name": "Defeat3",
+ "props": [
+  {
+   "assetPath": "defeatstage/fondonegro",
+   "atlasSettings": null,
+   "name": "fondonegro",
+   "position": [-4201, -2462],
+   "scale": 4,
+   "startingAnimation": "",
+   "zIndex": 1
+  },
+  {
+   "assetPath": "defeatstage/defeatfnf",
+   "atlasSettings": null,
+   "name": "glowrojo",
+   "position": [-444, -181],
+   "scale": 2,
+   "startingAnimation": "",
+   "zIndex": 2
+  }
+ ],
+ "characters": {
+  "bf": {
+   "cameraOffsets": [-300, 0],
+   "position": [1150, 899],
+   "zIndex": 300
+  },
+  "dad": {
+   "cameraOffsets": [200, 0],
+   "position": [530, 1080],
+   "zIndex": 200
+  },
+  "gf": {
+   "cameraOffsets": [0, 0],
+   "position": [739.5, 791],
+   "zIndex": 100
+  }
+ },
+ "cameraZoom": 0.6
+}

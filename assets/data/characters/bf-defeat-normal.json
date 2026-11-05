@@ -1,0 +1,77 @@
+{
+    "version": "1.0.1",
+    "name": "bf-defeat-normal",
+    "renderType": "multianimateatlas",
+    "assetPath": "shared:characters/bf/defeatBf",
+    "scale": 1,
+    "isPixel": false,
+    "flipX": true,
+    "startingAnimation": "idle",
+    "animations": [
+        {
+            "name": "idle",
+            "prefix": "idle",
+            "frameRate": 24,
+            "looped": true
+        },
+        {
+            "name": "singLEFT",
+            "prefix": "left",
+            "frameRate": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "down",
+            "frameRate": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "prefix": "up",
+            "frameRate": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "right",
+            "frameRate": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFTmiss",
+            "prefix": "left miss"
+        },
+        {
+            "name": "singDOWNmiss",
+            "prefix": "down miss"
+        },
+        {
+            "name": "singUPmiss",
+            "prefix": "up miss"
+        },
+        {
+            "name": "singRIGHTmiss",
+            "prefix": "right miss"
+        },
+        {
+            "assetPath": "shared:characters/gameover/bfdefeatgameovers",
+            "name": "firstDeath",
+            "prefix": "BF dies",
+            "offsets": [940, -20]
+        },
+        {
+            "assetPath": "shared:characters/gameover/bfdefeatgameovers",
+            "name": "deathLoop",
+            "prefix": "BF Dead Loop",
+            "looped": true,
+            "offsets": [940, -20]
+        },
+        {
+            "assetPath": "shared:characters/gameover/bfdefeatgameovers",
+            "name": "deathConfirm",
+            "prefix": "BF Dead confirm",
+            "offsets": [940, -20]
+        }
+    ]
+}

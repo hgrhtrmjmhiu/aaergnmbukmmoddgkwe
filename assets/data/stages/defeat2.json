@@ -1,0 +1,100 @@
+{
+ "version": "1.0.2",
+ "name": "Defeat2",
+ "props": [
+  {
+   "assetPath": "defeatstage/fondonegro",
+   "atlasSettings": null,
+   "name": "fondonegro",
+   "position": [-4201, -2462],
+   "scale": 4,
+   "startingAnimation": "",
+   "zIndex": 1
+  },
+  {
+   "alpha": 0.5,
+   "assetPath": "defeatstage/defeatpulse",
+   "atlasSettings": null,
+   "name": "fondo",
+   "position": [-1520, -202],
+   "scale": 4,
+   "startingAnimation": "",
+   "zIndex": 2
+  },
+  {
+   "assetPath": "defeatstage/idontknwo",
+   "atlasSettings": null,
+   "name": "basura",
+   "position": [-1112, -108],
+   "scale": 1.5,
+   "startingAnimation": "",
+   "zIndex": 4
+  },
+  {
+   "assetPath": "defeatstage/props1",
+   "atlasSettings": null,
+   "name": "props1",
+   "position": [-704, 397],
+   "scale": 1.35,
+   "startingAnimation": "",
+   "zIndex": 5
+  },
+  {
+   "alpha": 0.25,
+   "assetPath": "defeatstage/iluminao omaga",
+   "atlasSettings": null,
+   "name": "Gradientepiso",
+   "position": [-756, 268],
+   "scale": 4.5,
+   "startingAnimation": "",
+   "zIndex": 300
+  },
+  {
+   "assetPath": "defeatstage/props2",
+   "atlasSettings": null,
+   "name": "props2",
+   "position": [-842, 784],
+   "scale": 1.7,
+   "startingAnimation": "",
+   "zIndex": 500
+  },
+  {
+   "alpha": 0.4,
+   "assetPath": "defeatstage/edgeglow",
+   "atlasSettings": null,
+   "name": "GradienteArriba",
+   "position": [-1922, -900],
+   "scale": 2.5,
+   "startingAnimation": "",
+   "zIndex": 501
+  },
+  {
+   "alpha": 0.4,
+   "assetPath": "defeatstage/edgeglow",
+   "atlasSettings": null,
+   "name": "GradienteAbajo",
+   "position": [-1981, 791],
+   "scale": 2.5,
+   "startingAnimation": "",
+   "zIndex": 502
+  }
+ ],
+ "characters": {
+  "bf": {
+   "cameraOffsets": [-300, 0],
+   "position": [1150, 899],
+   "zIndex": 300
+  },
+  "dad": {
+   "cameraOffsets": [200, 0],
+   "position": [490, 1100],
+   "zIndex": 200
+  },
+  "gf": {
+   "cameraOffsets": [0, 0],
+   "position": [739.5, 791],
+   "zIndex": 100
+  }
+ },
+ "cameraZoom": 0.6
+}

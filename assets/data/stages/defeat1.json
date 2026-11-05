@@ -1,0 +1,42 @@
+{
+ "version": "1.0.2",
+ "name": "Defeat1",
+ "props": [
+  {
+   "assetPath": "defeatstage/fondonegro",
+   "atlasSettings": null,
+   "name": "fondonegro",
+   "position": [-4231, -2680],
+   "scale": 4,
+   "startingAnimation": "",
+   "zIndex": 1
+  },
+  {
+   "assetPath": "defeatstage/defeatpulse",
+   "atlasSettings": null,
+   "name": "fondo",
+   "position": [-1475, -287],
+   "scale": 4,
+   "startingAnimation": "",
+   "zIndex": 2
+  }
+ ],
+ "characters": {
+  "bf": {
+   "cameraOffsets": [-300, 0],
+   "position": [1150, 899],
+   "zIndex": 300
+  },
+  "dad": {
+   "cameraOffsets": [300, -0],
+   "position": [490, 1100],
+   "zIndex": 200
+  },
+  "gf": {
+   "cameraOffsets": [0, 0],
+   "position": [739.5, 791],
+   "zIndex": 100
+  }
+ },
+ "cameraZoom": 0.6
+}

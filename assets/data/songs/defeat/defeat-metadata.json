@@ -1,0 +1,49 @@
+{
+ "version": "2.2.4",
+ "songName": "Defeat",
+ "artist": "Rareblin",
+ "charter": "Orbyy",
+ "offsets": { },
+ "playData": {
+  "difficulties": [
+   "easy",
+   "normal",
+   "hard",
+   "erect",
+   "nightmare"
+  ],
+  "characters": {
+   "player": "bf-defeat-normal",
+   "girlfriend": "gfinvisible",
+   "opponent": "black",
+   "opponentVocals": [
+    "black"
+   ],
+   "playerVocals": [
+    "bf-defeat-normal"
+   ]
+  },
+  "stage": "defeat1",
+  "noteStyle": "vs-impostor-legacy",
+  "ratings": {
+   "easy": 15,
+   "normal": 16,
+   "hard": 17,
+   "erect": 18,
+   "nightmare": 20
+  },
+  "album": "vs-impostor-legacy-ost",
+  "stickerPack": "vs-impostor-legacy",
+  "previewStart": 0.199344914797463,
+  "previewEnd": 0.270392636510635
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.6",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 200,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

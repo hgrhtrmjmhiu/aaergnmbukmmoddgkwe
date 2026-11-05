@@ -1,0 +1,41 @@
+{
+    "version": "1.0.1",
+    "name": "blackold",
+    "renderType": "multianimateatlas",
+    "assetPath": "shared:characters/story/black/retro",
+    "scale": 1,
+    "isPixel": false,
+    "startingAnimation": "idle",
+    "animations": [
+        {
+            "name": "idle",
+            "prefix": "BLACK IDLE",
+            "frameRate": 24,
+            "looped": true
+        },
+        {
+            "name": "singLEFT",
+            "prefix": "BLACK LEFT",
+            "frameRate": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "BLACK DOWN",
+            "frameRate": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "prefix": "BLACK UP",
+            "frameRate": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "BLACK RIGHT",
+            "frameRate": 24,
+            "looped": false
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "version": "1.0.1",
+    "name": "black",
+    "renderType": "multianimateatlas",
+    "assetPath": "shared:characters/story/black/black",
+    "scale": 1,
+    "isPixel": false,
+    "startingAnimation": "idle",
+    "animations": [
+        {
+            "name": "idle",
+            "prefix": "black idle remast",
+            "frameRate": 24,
+            "looped": true
+        },
+        {
+            "name": "singLEFT",
+            "prefix": "black left",
+            "frameRate": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "black down",
+            "frameRate": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "prefix": "black up",
+            "frameRate": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "black right",
+            "frameRate": 24,
+            "looped": false
+        },
+        {
+            "name": "kill",
+            "prefix": "kill1",
+            "frameRate": 24,
+            "looped": false
+        },
+        {
+            "name": "kill2",
+            "prefix": "kill2",
+            "frameRate": 24,
+            "looped": false
+        }
+    ]
+}
